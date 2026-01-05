@@ -13,7 +13,7 @@ int main()
     printf("allOf: \t\t%d\n", allOf(array, length, 5));
     printf("anyOf: \t\t%d\n", anyOf(array, length, 5));
     printf("noneOf: \t%d\n", noneOf(array, length, 5));
-    printf("count of 1: \t%llu", count(array, length, 1));
+    printf("count of 1: \t%zu", count(array, length, 1));
 
     return 0;
 }

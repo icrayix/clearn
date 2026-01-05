@@ -2,6 +2,7 @@
 #define LIB_H
 
 #include <stdbool.h>
+#include <stddef.h>
 #include <stdint.h>
 
 bool allOf(int32_t *array, size_t length, int32_t value);

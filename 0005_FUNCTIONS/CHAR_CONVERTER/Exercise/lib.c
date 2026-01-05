@@ -1,3 +1,7 @@
+#ifndef LIB
+
+#define LIB
+
 #include <stdbool.h>
 
 bool isNumeric(char character)
@@ -69,3 +73,5 @@ char toLowerCase(char character)
 
     return character;
 }
+
+#endif
